@@ -1,0 +1,39 @@
+name: Request landingzone environment
+description: Request a landingzone environment
+title: Access request
+body:
+  - type: markdown
+    attributes:
+      value: | 
+        ### Thank you for your request.
+  - type: input
+    id: email
+    attributes:
+      label: Email Details
+      description: Your email adress
+      placeholder: E.g. erikvanroon@company.com
+    validations:
+      required: true
+  - type: dropdown
+    id: Business Unit
+    attributes:
+      label: Business Unit
+      Description: Please indicate your business unit
+      options:
+        - Sales
+        - IT
+        - Finance
+    validations:
+      required: true
+  - type: dropdown
+    id: usage
+    attributes:
+      label: Usage
+      Description: Please indicate the primary reason for requesting an environment 
+      options:
+        - Company related activities 
+        - Training/certification related activities 
+    validations:
+      required: true
+  
+  
