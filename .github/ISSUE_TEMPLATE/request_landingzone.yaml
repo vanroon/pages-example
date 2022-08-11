@@ -29,7 +29,7 @@ body:
     id: usage
     attributes:
       label: Usage
-      decription: Please indicate the primary reason for requesting an environment 
+      description: Please indicate the primary reason for requesting an environment 
       options:
         - Company related activities 
         - Training/certification related activities 
