@@ -1,1 +1,6 @@
-theme: jekyll-theme-midnight
+theme: minima
+title: Use Azure Automation for scheduling
+author: me
+description: Setup stuff
+
+
